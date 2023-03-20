@@ -1,0 +1,225 @@
+[INFO ] 2023-03-21 11:10:55.922 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Powered by SHAFT Engine v7.1.20230309                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-03-21 11:10:56.714 [main] ReportManager - Loaded OpenCV "opencv_java460".
+[INFO ] 2023-03-21 11:10:56.714 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-03-21 11:10:57.027 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-03-21 11:10:57.947 [main] Utils - [TestNG] Running:
+  C:\Users\Global\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+[INFO ] 2023-03-21 11:10:57.983 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                       'io.github.shafthq.shaft.listeners.ConfigurationHelper.suiteSetup'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-03-21 11:10:58.125 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-03-21 11:10:58.130 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-03-21 11:10:58.305 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of set up configuration method                                               
+                                                          'TestPackage.hometest.setUp'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[DEBUG] 2023-03-21 11:10:58.881 [main] ResolutionCache - Resolution edge=111 in cache (valid until 11:23:56 21/03/2023 EET)
+[DEBUG] 2023-03-21 11:10:58.882 [main] ResolutionCache - Resolution edge111=111.0.1661.44 in cache (valid until 10:23:56 22/03/2023 EET)
+[INFO ] 2023-03-21 11:10:58.883 [main] WebDriverManager - Using msedgedriver 111.0.1661.44 (resolved driver for Edge 111)
+[DEBUG] 2023-03-21 11:10:58.899 [main] WebDriverManager - Driver msedgedriver 111.0.1661.44 found in cache
+[INFO ] 2023-03-21 11:10:58.901 [main] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Global\.cache\selenium\msedgedriver\win64\111.0.1661.44\msedgedriver.exe
+[DEBUG] 2023-03-21 11:10:59.285 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2023-03-21 11:10:59.300 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-03-21 11:10:59.301 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-03-21 11:10:59.310 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2190508d
+[DEBUG] 2023-03-21 11:10:59.395 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-03-21 11:10:59.395 [main] PlatformDependent0 - Java version: 17
+[DEBUG] 2023-03-21 11:10:59.398 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-03-21 11:10:59.399 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-03-21 11:10:59.400 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-03-21 11:10:59.401 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-03-21 11:10:59.403 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-03-21 11:10:59.404 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-03-21 11:10:59.406 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @56966c0c
+[DEBUG] 2023-03-21 11:10:59.408 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-03-21 11:10:59.408 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-03-21 11:10:59.409 [main] PlatformDependent - maxDirectMemory: 4267704320 bytes (maybe)
+[DEBUG] 2023-03-21 11:10:59.409 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\Global\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-03-21 11:10:59.409 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-03-21 11:10:59.410 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-03-21 11:10:59.411 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-03-21 11:10:59.412 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-03-21 11:10:59.414 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-03-21 11:10:59.414 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-03-21 11:10:59.449 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-03-21 11:10:59.514 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-03-21 11:10:59.515 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-03-21 11:10:59.588 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-03-21 11:10:59.589 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-03-21 11:10:59.627 [main] GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-03-21 11:10:59.669 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2023-03-21 11:10:59.691 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-03-21 11:10:59.691 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-03-21 11:10:59.781 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2023-03-21 11:10:59.782 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2023-03-21 11:10:59.782 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-03-21 11:10:59.782 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-03-21 11:10:59.782 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-03-21 11:10:59.782 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-03-21 11:10:59.782 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-03-21 11:10:59.782 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-03-21 11:10:59.783 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-03-21 11:10:59.783 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-03-21 11:10:59.783 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-03-21 11:10:59.783 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-03-21 11:10:59.805 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-03-21 11:10:59.805 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-03-21 11:10:59.805 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[WARN ] 2023-03-21 11:11:00.045 [Exec Stream Pumper] ReportManager - Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 17351
+[WARN ] 2023-03-21 11:11:00.046 [Exec Stream Pumper] ReportManager - To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+[WARN ] 2023-03-21 11:11:00.046 [Exec Stream Pumper] ReportManager - Only local connections are allowed.
+[WARN ] 2023-03-21 11:11:00.047 [Exec Stream Pumper] ReportManager - Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+[WARN ] 2023-03-21 11:11:01.664 [Exec Stream Pumper] ReportManager - Microsoft Edge WebDriver was started successfully.
+[DEBUG] 2023-03-21 11:11:02.247 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 10524 (auto-detected)
+[DEBUG] 2023-03-21 11:11:02.251 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-03-21 11:11:02.251 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-03-21 11:11:02.272 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-03-21 11:11:02.273 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-03-21 11:11:02.296 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: c8:21:58:ff:fe:d1:18:70 (auto-detected)
+[DEBUG] 2023-03-21 11:11:02.496 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-03-21 11:11:02.496 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-03-21 11:11:02.497 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4d139d46
+[DEBUG] 2023-03-21 11:11:02.521 [AsyncHttpClient-1-2] NettyConnectListener - Using new Channel '[id: 0x09af88b9, L:/127.0.0.1:62111 - R:localhost/127.0.0.1:17351]' for 'POST' to '/session'
+[DEBUG] 2023-03-21 11:11:02.565 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-03-21 11:11:02.565 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-03-21 11:11:02.565 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-03-21 11:11:02.565 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-03-21 11:11:02.565 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[DEBUG] 2023-03-21 11:11:03.722 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-03-21 11:11:03.723 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.8.1 (java windows)
+Content-Length: 371
+Content-Type: application/json; charset=utf-8
+host: localhost:17351
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 826
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] 2023-03-21 11:11:03.738 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:17351 for channel [id: 0x09af88b9, L:/127.0.0.1:62111 - R:localhost/127.0.0.1:17351]
+[DEBUG] 2023-03-21 11:11:03.997 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://localhost:17351 : 1
+[DEBUG] 2023-03-21 11:11:04.071 [AsyncHttpClient-1-3] NettyConnectListener - Using new Channel '[id: 0xce7c5131, L:/127.0.0.1:62121 - R:localhost/127.0.0.1:62112]' for 'GET' to '/json/version'
+[DEBUG] 2023-03-21 11:11:04.075 [AsyncHttpClient-1-3] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.8.1 (java windows)
+host: localhost:62112
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Length: 436
+Content-Type: application/json; charset=UTF-8
+
+[DEBUG] 2023-03-21 11:11:04.076 [AsyncHttpClient-1-3] ChannelManager - Adding key: http://localhost:62112 for channel [id: 0xce7c5131, L:/127.0.0.1:62121 - R:localhost/127.0.0.1:62112]
+[DEBUG] 2023-03-21 11:11:04.097 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x24557261bee1a5e4
+[DEBUG] 2023-03-21 11:11:04.104 [AsyncHttpClient-1-4] NettyConnectListener - Using new Channel '[id: 0xeef2f954, L:/127.0.0.1:62122 - R:localhost/127.0.0.1:62112]' for 'GET' to '/devtools/browser/13244f84-e6da-406b-afaa-a008b500b3ec'
+[DEBUG] 2023-03-21 11:11:04.107 [AsyncHttpClient-1-4] WebSocketHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/13244f84-e6da-406b-afaa-a008b500b3ec HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: Zb4z+KVFXcvEGi5tAYRCMw==
+sec-websocket-version: 13
+origin: http://localhost:62112
+host: localhost:62112
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: dk9buKGQwGPWcHv7QVSOzO5AWb0=
+
+[DEBUG] 2023-03-21 11:11:04.243 [Forwarding get on session b29e17a83aae6e1dc086f8488616020f to remote] NettyRequestSender - Using pooled Channel '[id: 0x09af88b9, L:/127.0.0.1:62111 - R:localhost/127.0.0.1:17351]' for 'POST' to 'http://localhost:17351/session/b29e17a83aae6e1dc086f8488616020f/url'
+[DEBUG] 2023-03-21 11:11:04.243 [Forwarding get on session b29e17a83aae6e1dc086f8488616020f to remote] NettyRequestSender - Using open Channel [id: 0x09af88b9, L:/127.0.0.1:62111 - R:localhost/127.0.0.1:17351] for POST '/session/b29e17a83aae6e1dc086f8488616020f/url'
+[DEBUG] 2023-03-21 11:11:05.057 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://localhost:62112 : 1
+[DEBUG] 2023-03-21 11:11:06.169 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://localhost:62112 : 1
+[DEBUG] 2023-03-21 11:11:07.159 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/b29e17a83aae6e1dc086f8488616020f/url HTTP/1.1
+User-Agent: selenium/4.8.1 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:17351
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] 2023-03-21 11:11:07.160 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:17351 for channel [id: 0x09af88b9, L:/127.0.0.1:62111 - R:localhost/127.0.0.1:17351]
+[INFO ] 2023-03-21 11:11:07.237 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                        Test Method: 'TestPackage.hometest.verifyLoginButtonIsDisplayed'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[DEBUG] 2023-03-21 11:11:07.259 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://localhost:62112 : 1
+[DEBUG] 2023-03-21 11:11:07.260 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://localhost:17351 : 1
+[DEBUG] 2023-03-21 11:11:07.261 [Forwarding findElement on session b29e17a83aae6e1dc086f8488616020f to remote] NettyRequestSender - Using pooled Channel '[id: 0x09af88b9, L:/127.0.0.1:62111 - R:localhost/127.0.0.1:17351]' for 'POST' to 'http://localhost:17351/session/b29e17a83aae6e1dc086f8488616020f/element'
+[DEBUG] 2023-03-21 11:11:07.261 [Forwarding findElement on session b29e17a83aae6e1dc086f8488616020f to remote] NettyRequestSender - Using open Channel [id: 0x09af88b9, L:/127.0.0.1:62111 - R:localhost/127.0.0.1:17351] for POST '/session/b29e17a83aae6e1dc086f8488616020f/element'
+[DEBUG] 2023-03-21 11:11:07.304 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/b29e17a83aae6e1dc086f8488616020f/element HTTP/1.1
+User-Agent: selenium/4.8.1 (java windows)
+Content-Length: 105
+Content-Type: application/json; charset=utf-8
+host: localhost:17351
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] 2023-03-21 11:11:07.304 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:17351 for channel [id: 0x09af88b9, L:/127.0.0.1:62111 - R:localhost/127.0.0.1:17351]
+[DEBUG] 2023-03-21 11:11:07.326 [Forwarding isElementDisplayed on session b29e17a83aae6e1dc086f8488616020f to remote] NettyRequestSender - Using pooled Channel '[id: 0x09af88b9, L:/127.0.0.1:62111 - R:localhost/127.0.0.1:17351]' for 'POST' to 'http://localhost:17351/session/b29e17a83aae6e1dc086f8488616020f/execute/sync'
+[DEBUG] 2023-03-21 11:11:07.327 [Forwarding isElementDisplayed on session b29e17a83aae6e1dc086f8488616020f to remote] NettyRequestSender - Using open Channel [id: 0x09af88b9, L:/127.0.0.1:62111 - R:localhost/127.0.0.1:17351] for POST '/session/b29e17a83aae6e1dc086f8488616020f/execute/sync'
+[DEBUG] 2023-03-21 11:11:07.374 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/b29e17a83aae6e1dc086f8488616020f/execute/sync HTTP/1.1
+User-Agent: selenium/4.8.1 (java windows)
+Content-Length: 48807
+Content-Type: application/json; charset=utf-8
+host: localhost:17351
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] 2023-03-21 11:11:07.374 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://localhost:17351 for channel [id: 0x09af88b9, L:/127.0.0.1:62111 - R:localhost/127.0.0.1:17351]
+[INFO ] 2023-03-21 11:11:07.419 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyLoginButtonIsDisplayed'
+[INFO ] 2023-03-21 11:11:07.688 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of suite teardown configuration method                                           
+                                     'io.github.shafthq.shaft.listeners.ConfigurationHelper.suiteTeardown'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-03-21 11:11:07.690 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-03-21 11:11:07.691 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-03-21 11:11:07.693 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

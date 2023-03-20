@@ -7,6 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>SGS-Auto</artifactId>
     <version>1.0-SNAPSHOT</version>
+<<<<<<< HEAD
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -14,4 +15,77 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     
+=======
+    <properties>
+        <!-- Make sure you point to the latest release version: https://github.com/ShaftHQ/SHAFT_ENGINE/releases -->
+        <shaft_engine.version>7.1.20230309</shaft_engine.version>
+    </properties>
+    <repositories>
+        <repository>
+            <id>automatest-artifactory</id>
+            <url>https://automatest.jfrog.io/artifactory/SHAFT_ENGINE</url>
+        </repository>
+        <repository>
+            <id>central-2</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>io.github.shafthq</groupId>
+            <artifactId>SHAFT_ENGINE</artifactId>
+            <version>${shaft_engine.version}</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                    <encoding>UTF-8</encoding>
+                    <maxmem>10240m</maxmem>
+                    <meminitial>1024m</meminitial>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M9</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>1.9.19</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <failIfNoSpecifiedTests>false</failIfNoSpecifiedTests>
+                    <failIfNoTests>false</failIfNoTests>
+                    <encoding>UTF-8</encoding>
+                    <argLine>
+                        -Dtestng.dtd.http=true
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar"
+                    </argLine>
+                    <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
+                        <property>
+                            <name>listener</name>
+                            <value>
+                                io.github.shafthq.shaft.listeners.TestNGListener
+                            </value>
+                        </property>
+                    </properties>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+>>>>>>> 4889f06 (Initial commit)
 </project>
