@@ -39,7 +39,3 @@ public class JoinFormIGC {
     }
 
 }
-class JoinFormIndividal{
-}
-class JoinFormComp{
-}
