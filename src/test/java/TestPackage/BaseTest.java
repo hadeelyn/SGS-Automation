@@ -23,7 +23,4 @@ public class BaseTest {
 
 
 
-    public void tearDown() {
-        edgeDriver.quit();
-    }
 }

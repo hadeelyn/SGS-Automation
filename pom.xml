@@ -15,9 +15,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <shaft_engine.version>7.1.20230309</shaft_engine.version>
     </properties>
-    
 
-    <repositories>
+
+<repositories>
         <repository>
             <id>automatest-artifactory</id>
             <url>https://automatest.jfrog.io/artifactory/SHAFT_ENGINE</url>
@@ -53,6 +53,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M9</version>
                 <dependencies>
+                    <dependency>
+                        <groupId>com.github.javafaker</groupId>
+                        <artifactId>javafaker</artifactId>
+                        <version>1.0.2</version>
+                    </dependency>
                     <dependency>
                         <groupId>org.aspectj</groupId>
                         <artifactId>aspectjweaver</artifactId>

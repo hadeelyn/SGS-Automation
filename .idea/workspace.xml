@@ -4,30 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="e9cd0ee8-d8d2-4d54-834a-881af690184e" name="Changes" comment="" />
-=======
-    <list default="true" id="e9cd0ee8-d8d2-4d54-834a-881af690184e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testDataFiles/simpleJSON.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/JoinFormIGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/TestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/hometest.java" afterDir="false" />
+    <list default="true" id="e9cd0ee8-d8d2-4d54-834a-881af690184e" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/TearDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hometest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage/JoinFormIGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage/JoinFormIGC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage/hometest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage/hometest.java" afterDir="false" />
     </list>
->>>>>>> 4889f06 (Initial commit)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
-=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -35,129 +27,45 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
->>>>>>> 4889f06 (Initial commit)
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2NH4blVekTHHpizVTV4U7dqJvBL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-<<<<<<< HEAD
-    "RunOnceActivity.ShowReadmeOnStart": "true"
-  }
-}]]></component>
-=======
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/ideaProj/worldmarketAutomation-master",
-    "settings.editor.selected.configurable": "advanced.settings"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\ideaProj\SGS-Auto\src\test\java\TestPackage" />
       <recent name="C:\ideaProj\SGS-Auto" />
-      <recent name="C:\ideaProj\SGS-Auto\src\main\resources" />
-      <recent name="C:\ideaProj\SGS-Auto\src\test\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="TestPackage" />
+      <recent name="C:\ideaProj\SGS-Auto\src\main" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.hometest">
-    <configuration default="true" type="TestNG">
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="io.github.shafthq.shaft.listeners.TestNGListener" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="hometest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SGS-Auto" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestPackage.JoinFormIGC" />
+          <option name="PATTERN" value="TestPackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="TestPackage" />
       <option name="MAIN_CLASS_NAME" value="TestPackage.hometest" />
-      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners>
-        <listener class="io.github.shafthq.shaft.listeners.TestNGListener" />
-      </listeners>
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hometest.verifyLoginButtonIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="hometest.verifyThatTheHomepageAppearProperly" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SGS-Auto" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestPackage.JoinFormIGC" />
+          <option name="PATTERN" value="TestPackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="TestPackage" />
       <option name="MAIN_CLASS_NAME" value="TestPackage.hometest" />
-      <option name="METHOD_NAME" value="verifyLoginButtonIsDisplayed" />
-      <option name="GROUP_NAME" value="" />
+      <option name="METHOD_NAME" value="verifyThatTheHomepageAppearProperly" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners>
-        <listener class="io.github.shafthq.shaft.listeners.TestNGListener" />
-      </listeners>
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,34 +73,31 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.hometest" />
-        <item itemvalue="TestNG.hometest.verifyLoginButtonIsDisplayed" />
+        <item itemvalue="TestNG.hometest.verifyThatTheHomepageAppearProperly" />
       </list>
     </recent_temporary>
   </component>
->>>>>>> 4889f06 (Initial commit)
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="e9cd0ee8-d8d2-4d54-834a-881af690184e" name="Changes" comment="" />
-      <created>1679307749641</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1679307749641</updated>
+    <task id="LOCAL-00001" summary="test">
+      <created>1679394515970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679394515970</updated>
     </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1679394550107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679394550107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-<<<<<<< HEAD
-=======
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
->>>>>>> 4889f06 (Initial commit)
 </project>
