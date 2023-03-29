@@ -3,12 +3,32 @@
 <suite name="Main Flow" >
     <test name="flow1">
         <classes>
-            <class name="TestPackage.BaseTest"></class>
             <class name="TestPackage.hometest"></class>
-
-            <class name=""></class>
+            <class name="TestPackage.ProductsTest"></class>
+            <class name="TestPackage.CartTest"></class>
             <class name="TestPackage.TearDown"></class>
         </classes>
     </test>
-
+    <test name="flow2">
+        <classes>
+            <class name="TestPackage.TraineeRegTest"></class>
+            <class name="TestPackage.TrainerRegTest"></class>
+            <class name="TestPackage.TearDown"></class>
+        </classes>
+    </test>
+    <test name="flow3">
+        <classes>
+            <class name="TestPackage.hometest"></class>
+            <class name="TestPackage.UserProfileTest"></class>
+            <class name="TestPackage.TearDown"></class>
+        </classes>
+    </test>
+    <test name="flow4-Register">
+        <classes>
+            <class name="TestPackage.IndividalRegTest"></class>
+            <class name="TestPackage.CompanyRegTest"></class>
+            <class name="TestPackage.GovernmentRegTest"></class>
+            <class name="TestPackage.TearDown"></class>
+        </classes>
+    </test>
 </suite>

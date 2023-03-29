@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9cd0ee8-d8d2-4d54-834a-881af690184e" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/TearDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/CompanyRegTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/GovernmentRegTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/IndividalRegTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/ProductsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/RequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/TraineeRegTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/TrainerRegTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage/UserProfileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage/JoinFormIGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage/JoinFormIGC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage/hometest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage/hometest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +36,20 @@
     </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/ideaProj/Hadeel-selenium",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\ideaProj\SGS-Auto" />
       <recent name="C:\ideaProj\SGS-Auto\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.hometest">
-    <configuration name="hometest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TraineeRegTest">
+    <configuration name="TraineeRegTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SGS-Auto" />
       <extension name="coverage">
         <pattern>
@@ -44,7 +58,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestPackage" />
-      <option name="MAIN_CLASS_NAME" value="TestPackage.hometest" />
+      <option name="MAIN_CLASS_NAME" value="TestPackage.TraineeRegTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -52,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hometest.verifyThatTheHomepageAppearProperly" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TraineeRegTest.VerifySubmitFormOfTraineeRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SGS-Auto" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +75,60 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestPackage" />
-      <option name="MAIN_CLASS_NAME" value="TestPackage.hometest" />
-      <option name="METHOD_NAME" value="verifyThatTheHomepageAppearProperly" />
+      <option name="MAIN_CLASS_NAME" value="TestPackage.TraineeRegTest" />
+      <option name="METHOD_NAME" value="VerifySubmitFormOfTraineeRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainerRegTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SGS-Auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestPackage" />
+      <option name="MAIN_CLASS_NAME" value="TestPackage.TrainerRegTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProfileTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SGS-Auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestPackage" />
+      <option name="MAIN_CLASS_NAME" value="TestPackage.UserProfileTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProfileTest.VerifyNavigateToChangePasswordPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SGS-Auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestPackage" />
+      <option name="MAIN_CLASS_NAME" value="TestPackage.UserProfileTest" />
+      <option name="METHOD_NAME" value="VerifyNavigateToChangePasswordPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -72,8 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.hometest" />
-        <item itemvalue="TestNG.hometest.verifyThatTheHomepageAppearProperly" />
+        <item itemvalue="TestNG.TraineeRegTest" />
+        <item itemvalue="TestNG.TrainerRegTest" />
+        <item itemvalue="TestNG.TraineeRegTest.VerifySubmitFormOfTraineeRegistration" />
+        <item itemvalue="TestNG.UserProfileTest" />
+        <item itemvalue="TestNG.UserProfileTest.VerifyNavigateToChangePasswordPage" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679394550107</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1679653099451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679653099451</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
